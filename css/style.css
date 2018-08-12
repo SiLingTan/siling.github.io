@@ -1,20 +1,26 @@
 /* Style the header */
 .header {
+
     width: 100%;
     height: 700px;
+    color: white;
     padding-top: 250px;
     text-align: center;
-    color: white;
+    background-size: cover;
     background-image: url("../img/hero.jpg");
 }
 /* Increase the font size of the <h1> element */
 .header h1 {
     font-family: 'Lato', sans-serif;
     font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 .header h3 {
     font-family: 'Lato', sans-serif;
     color: #e5e5e5;
+    font-size: 32px;
+    padding: 2px;
 }
 
 #aboutMe,
