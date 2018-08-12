@@ -37,6 +37,11 @@
     padding-right: 10px;
     height: auto;
 }
+#contact a{
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}
 
 .lead {
     font-size: 28px;
@@ -98,7 +103,7 @@ p {
         padding-top: 70px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 0px;
+        padding-bottom: 30px;
     }
     #aboutMe img{
         padding-top: 34px;
