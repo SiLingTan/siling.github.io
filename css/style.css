@@ -25,7 +25,8 @@
 
 #aboutMe,
 #portfolio,
-#contact{
+#contact,
+#blog{
     padding: 100px 100px;
 }
 #aboutMe .col{
@@ -99,7 +100,8 @@ p {
 
     #aboutMe,
     #portfolio,
-    #contact{
+    #contact,
+    #blog{
         padding-top: 70px;
         padding-left: 30px;
         padding-right: 30px;
