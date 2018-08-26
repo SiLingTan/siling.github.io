@@ -29,6 +29,13 @@
 #blog{
     padding: 100px 100px;
 }
+#aboutMe .row{
+    max-width: 980px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 #aboutMe .col{
     margin-right: 50px;
     margin-left: 50px;
