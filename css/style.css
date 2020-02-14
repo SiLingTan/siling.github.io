@@ -1,6 +1,5 @@
 /* Style the header */
 .header {
-
     width: 100%;
     height: 700px;
     color: white;
@@ -49,6 +48,16 @@
     color: inherit;
     text-decoration: inherit;
     cursor: inherit;
+}
+
+/* Blog page */
+#v-pills-tab a{
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+#v-pills-tab > .active{
+    background-color: #e5e5e5;
 }
 
 .lead {
