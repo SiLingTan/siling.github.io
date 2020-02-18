@@ -1,24 +1,21 @@
-/* Style the header */
+/* Display on mobile */
 .header {
-    width: 100%;
     height: 700px;
-    color: white;
     padding-top: 250px;
     text-align: center;
-    background-size: cover;
+    color: white;
     background-image: url("../img/hero.jpg");
 }
-/* Increase the font size of the <h1> element */
 .header h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 26px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 .header h3 {
     font-family: 'Lato', sans-serif;
     color: #e5e5e5;
-    font-size: 32px;
+    font-size: 22px;
     padding: 2px;
 }
 
@@ -26,28 +23,17 @@
 #portfolio,
 #contact,
 #blog{
-    padding: 100px 100px;
+    padding-top: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
-#aboutMe .row{
-    max-width: 980px;
-    min-width: 320px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#aboutMe .col{
-    margin-right: 50px;
-    margin-left: 50px;
-}
+
 #aboutMe img{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 34px;
+    padding-left: 85px;
+    padding-right: 85px;
     height: auto;
-}
-#contact a{
-    color: inherit;
-    text-decoration: inherit;
-    cursor: inherit;
 }
 
 /* Blog page */
@@ -60,11 +46,18 @@
     background-color: #e5e5e5;
 }
 
+#contact a{
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+    font-family: 'Lato', sans-serif;
+}
+
 .lead {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
     color: #F5BA32;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
 }
 
 .lead a:hover, a:visited, a:link, a:active{
@@ -87,17 +80,16 @@ p {
     color: #555;
     padding: 20px 0 5px 0;
 }
+
 .footer p {
+    text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 11px;
-    text-align: left;
-    margin-left: 55px;
     line-height: 1.625em;
 }
 
-/* Display on mobile */
-@media screen and (max-width: 768px) {
-
+/* Display on portrait tablets and large phones */
+@media screen and (min-width: 600px) {
     .header {
         height: 700px;
         padding-top: 250px;
@@ -127,6 +119,7 @@ p {
         padding-right: 30px;
         padding-bottom: 30px;
     }
+
     #aboutMe img{
         padding-top: 34px;
         padding-left: 10px;
@@ -134,8 +127,128 @@ p {
         height: auto;
     }
 
-    .footer p {
+    /* Blog page*/
+    .lead {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        color: #F5BA32;
+        padding-bottom: 2px;
+    }
+
+    .lead a:hover, a:visited, a:link, a:active{
+        text-decoration: none;
+    }
+}
+
+/* Display on medium sized devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+    .header {
+        height: 700px;
+        padding-top: 250px;
         text-align: center;
-        margin-left: 0px;
+        color: white;
+        background-image: url("../img/hero.jpg");
+    }
+    .header h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .header h3 {
+        font-family: 'Lato', sans-serif;
+        color: #e5e5e5;
+        font-size: 22px;
+        padding: 2px;
+    }
+
+    #aboutMe,
+    #portfolio,
+    #contact,
+    #blog{
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    #aboutMe img{
+        padding-top: 34px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
+
+    /* Blog page*/
+    .lead {
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        color: #F5BA32;
+        padding-bottom: 2px;
+    }
+
+    .lead a:hover, a:visited, a:link, a:active{
+        text-decoration: none;
+    }
+}
+
+/* Display on laptops and desktops */
+@media only screen and (min-width: 1200px) {
+    /* Style the header */
+    .header {
+        width: 100%;
+        height: 700px;
+        color: white;
+        padding-top: 250px;
+        text-align: center;
+        background-size: cover;
+        background-image: url("../img/hero.jpg");
+    }
+    /* Increase the font size of the <h1> element */
+    .header h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .header h3 {
+        font-family: 'Lato', sans-serif;
+        color: #e5e5e5;
+        font-size: 32px;
+        padding: 2px;
+    }
+
+    #aboutMe,
+    #portfolio,
+    #contact,
+    #blog{
+        padding: 100px 100px;
+    }
+    #aboutMe .row{
+        max-width: 980px;
+        min-width: 320px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #aboutMe .col{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    #aboutMe img{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
+
+    .lead {
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        color: #F5BA32;
+        padding-bottom: 6px;
+    }
+
+    .lead a:hover, a:visited, a:link, a:active{
+        text-decoration: none;
     }
 }
