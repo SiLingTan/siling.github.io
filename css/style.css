@@ -46,6 +46,25 @@
     background-color: #e5e5e5;
 }
 
+.card-deck .my-card {
+    padding-bottom: 30px;
+}
+
+.my-card .card{
+    padding: 0px;
+    margin: 0px;
+}
+
+.receipe-list {
+    width: 100%;
+    height: 450px;
+}
+
+.list-page {
+    overflow-x: hidden;
+    width:98%;
+}
+
 #contact a{
     color: inherit;
     text-decoration: inherit;
@@ -114,7 +133,7 @@ p {
     #portfolio,
     #contact,
     #blog{
-        padding-top: 70px;
+        padding-top: 80px;
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 30px;
@@ -128,6 +147,10 @@ p {
     }
 
     /* Blog page*/
+    .card-deck .my-card {
+        padding-bottom: 42px;
+    }
+
     .lead {
         font-size: 18px;
         font-family: 'Lato', sans-serif;
@@ -166,7 +189,7 @@ p {
     #portfolio,
     #contact,
     #blog{
-        padding-top: 70px;
+        padding-top: 83px;
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 30px;
