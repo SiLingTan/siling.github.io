@@ -62,7 +62,7 @@
 
 .list-page {
     overflow-x: hidden;
-    padding-right: 20px;
+    padding-right: 6px;
 }
 
 #contact a{
@@ -151,6 +151,11 @@ p {
         padding-bottom: 42px;
     }
 
+    .list-page {
+        overflow-x: hidden;
+        padding-right: 15px;
+    }
+
     .lead {
         font-size: 18px;
         font-family: 'Lato', sans-serif;
@@ -203,6 +208,11 @@ p {
     }
 
     /* Blog page*/
+    .list-page {
+        overflow-x: hidden;
+        padding-right: 15px;
+    }
+
     .lead {
         font-size: 18px;
         font-family: 'Lato', sans-serif;
@@ -262,6 +272,11 @@ p {
         padding-left: 10px;
         padding-right: 10px;
         height: auto;
+    }
+
+    .list-page {
+        overflow-x: hidden;
+        padding-right: 20px;
     }
 
     .lead {
