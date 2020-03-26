@@ -62,7 +62,7 @@
 
 .list-page {
     overflow-x: hidden;
-    width:98%;
+    padding-right: 20px;
 }
 
 #contact a{
@@ -245,7 +245,7 @@ p {
     #portfolio,
     #contact,
     #blog{
-        padding: 100px 100px;
+        padding: 100px 80px;
     }
     #aboutMe .row{
         max-width: 980px;
