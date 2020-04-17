@@ -36,6 +36,34 @@
     height: auto;
 }
 
+/* Recipe page */
+#menu {
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+#menu .list-group-item img {
+    height: 25px;
+    width: 25px;
+}
+
+#menu .menu-image {
+    padding: 20px 30px;
+}
+
+#ingredients,
+#directions {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#menu,
+#ingredients,
+#directions {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /* Blog page */
 #v-pills-tab a{
     font-family: 'Lato', sans-serif;
@@ -83,7 +111,8 @@
     text-decoration: none;
 }
 
-p {
+p,
+ul li {
     font-family: 'Lato', sans-serif;
     color: #555;
     font-weight: 400;
@@ -146,7 +175,32 @@ p {
         height: auto;
     }
 
-    /* Blog page*/
+    /* Recipe page */
+    #menu {
+        padding-top: 85px;
+        padding-bottom: 10px;
+    }
+
+    #menu .list-group-item img {
+        height: 25px;
+        width: 25px;
+    }
+
+    #ingredients,
+    #directions {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #menu,
+    #ingredients,
+    #directions {
+        padding-left: 45px;
+        padding-right: 60px;
+    }
+
+
+    /* Blog page */
     .card-deck .my-card {
         padding-bottom: 42px;
     }
@@ -193,19 +247,44 @@ p {
     #aboutMe,
     #portfolio,
     #contact,
-    #blog{
+    #blog {
         padding-top: 83px;
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 30px;
     }
 
-    #aboutMe img{
+    #aboutMe img {
         padding-top: 34px;
         padding-left: 10px;
         padding-right: 10px;
         height: auto;
     }
+
+    /* Recipe page */
+    #menu {
+        padding-top: 93px;
+        padding-bottom: 10px;
+    }
+
+    #menu .list-group-item img {
+        height: 35px;
+        width: 35px;
+    }
+
+    #ingredients,
+    #directions {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #menu,
+    #ingredients,
+    #directions {
+        padding-left: 48px;
+        padding-right: 63px;
+    }
+
 
     /* Blog page*/
     .list-page {
@@ -254,7 +333,7 @@ p {
     #aboutMe,
     #portfolio,
     #contact,
-    #blog{
+    #blog {
         padding: 100px 80px;
     }
     #aboutMe .row{
@@ -272,6 +351,34 @@ p {
         padding-left: 10px;
         padding-right: 10px;
         height: auto;
+    }
+
+    /* Recipe page */
+    #menu {
+        padding-top: 93px;
+        padding-bottom: 10px;
+    }
+
+    #menu .list-group-item img {
+        height: 35px;
+        width: 35px;
+    }
+
+    #menu .menu-image {
+        padding: 5px 50px 0px 180px;
+    }
+
+    #menu,
+    #ingredients,
+    #directions {
+        padding-left: 70px;
+        padding-right: 80px;
+    }
+
+    #ingredients,
+    #directions {
+        padding-top: 38px;
+        padding-bottom: 38px;
     }
 
     .list-page {
